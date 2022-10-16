@@ -31,4 +31,3 @@ class CustomFilters:
 
     def _owner_query(user_id):
         return bool(user_id == OWNER_ID or user_id in SUDO_USERS)
-
